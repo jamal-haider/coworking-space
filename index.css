@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    background: #282828;
+    padding: 20px 15px;
+}
+header ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+header ul li{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+header ul li:hover{
+    cursor: pointer;
+}
+
+header ul li img{
+    width: 30px;
+}
+
+.align-right{
+    margin-left: auto;
+}
+
+#main-heading{
+    margin: 15px 0;
+    font-size: 46px;
+    padding: 0px 15px;
+    font-weight: 100;
+}
+
+
+.item{
+    margin: 10px 0;
+    position: relative;
+}
+.item img{
+    width: 100%;
+}
+
+.exclusive{
+    border: 0;
+    background: #cd6858;
+    color: whitesmoke;
+    padding: 15px 20px;
+    font-size: 16px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.exclusive:hover{
+    cursor: pointer;
+}
+
+.caption{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15px;
+    font-size: 20px;
+}
+.caption button{
+    background: #cd6858;
+    border: 0;
+    padding: 15px 30px;
+    color: white;
+    margin: auto 10px;
+
+}
+
+.caption button:hover{
+    cursor: pointer;
+}
